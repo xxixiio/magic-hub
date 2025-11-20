@@ -1,3 +1,13 @@
 header {
     background-color: #f6ef91;
 }
+
+article > p {
+  color: #8b5e34;
+  font-weight: 500;
+}
+article ~ p {
+  background-color: #f3efe6;
+  padding: 0.5rem;
+  border-left: 3px solid #bfa88f;
+}
