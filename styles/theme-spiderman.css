@@ -1,0 +1,6 @@
+/* Tema específic Spider-Man */
+
+header { background: #ff0000; }
+h1 { letter-spacing: 0.5px; }
+article { border-left: 4px solid #cde3ff; padding-left: 1rem; background-color: #2600ff; color: white; }
+footer { background-color: #ff0000;}
