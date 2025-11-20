@@ -12,3 +12,14 @@ article > p {
 article ~ p {
     text-decoration: underline;
 }
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contenidorCarta > img {
+    width: 200px;
+}
