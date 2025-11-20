@@ -1,0 +1,15 @@
+/* Tema específic Final-Fantasy */
+header { background: #0ccc29; }
+h1 { letter-spacing: 0.5px; }
+article { border-left: 4px solid #e9d858; padding-left: 1rem; }
+
+article > p {
+    color: white;
+    font-weight: 600;
+}
+
+article ~ p {
+    text-decoration: underline;
+    color: rgb(147, 54, 168)
+   
+}
