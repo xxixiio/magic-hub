@@ -1,5 +1,5 @@
 header {
-    background-color: #f6ef91;
+    background-color: #bfa88f;
 }
 
 article > p {
@@ -8,6 +8,19 @@ article > p {
 }
 article ~ p {
   background-color: #f3efe6;
-  padding: 0.5rem;
+  padding: 8px;
   border-left: 3px solid #bfa88f;
+}
+.cartes-lotr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+.carta {
+  flex: 0 1 200px; 
+  text-align: center;
+}
+.carta img {
+  width: 100%; /* la imagen ocupa todo el div de la carta */
 }
