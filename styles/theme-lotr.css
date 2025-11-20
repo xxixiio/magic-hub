@@ -22,5 +22,5 @@ article ~ p {
   text-align: center;
 }
 .carta img {
-  width: 100%; /* la imagen ocupa todo el div de la carta */
+  width: 100%; 
 }
