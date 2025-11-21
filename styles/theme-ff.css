@@ -1,10 +1,10 @@
 /* Tema específic Final-Fantasy */
-header { background: #0ccc29; }
+header { background: #5d3fd3; }
 h1 { letter-spacing: 0.5px; }
 article { border-left: 4px solid #e9d858; padding-left: 1rem; }
 
 article > p {
-    color: white;
+    color: #7acbff;
     font-weight: 600;
 }
 
@@ -12,4 +12,21 @@ article ~ p {
     text-decoration: underline;
     color: rgb(147, 54, 168)
    
+}
+
+.Cartes-ff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+.carta {
+    flex: 0 1 180px;
+    text-align: center;
+}
+
+.carta img {
+    width: 100%;
 }
